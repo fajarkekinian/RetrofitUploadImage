@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 // Response Log
                 Log.d("Keterangan : ", response.body().getKet());
                 Log.d("Status   : ", response.body().getStatus());
-                
+
                 Toast.makeText(MainActivity.this, "Upload : "+response.body().getDirectory(), Toast.LENGTH_SHORT).show();
             }
 
